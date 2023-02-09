@@ -49,7 +49,7 @@ namespace SortingAlgorithms_TShirt
 
         public void UndoSorting(List<TShirt> unsorted, TShirtList sorted)
         {
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 10000; i++)
             {
                 sorted.TShirts[i] = unsorted[i];
             }

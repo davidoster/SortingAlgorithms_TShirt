@@ -27,7 +27,7 @@ namespace SortingAlgorithms_TShirt
             TShirtList tShirtList = new TShirtList();
             tShirtList.TShirts = new List<TShirt>();
 
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 10000; i++)
             {
                 tShirt = new TShirt(RandomString(10), (Color)random.Next(0, 7), (Size)random.Next(0, 7), (Fabric)random.Next(0, 7));
                 randomTShirtsUnsorted.Add(tShirt);
@@ -35,48 +35,48 @@ namespace SortingAlgorithms_TShirt
             }
 
             Console.WriteLine("Press any key to proceed to sorting ascending by size.");
-            Console.ReadKey();
+            //Console.ReadKey();
             sortManager.SortBySizeAscending(randomTShirtsUnsorted, tShirtList);
             Console.WriteLine();
 
             Console.WriteLine("Press any key to proceed to sorting descending by size.");
-            Console.ReadKey();
+            //Console.ReadKey();
             sortManager.UndoSorting(randomTShirtsUnsorted, tShirtList);
             sortManager.SortBySizeDescending(randomTShirtsUnsorted, tShirtList);
             Console.WriteLine();
 
             Console.WriteLine("Press any key to proceed to sorting ascending by color.");
-            Console.ReadKey();
+            //Console.ReadKey();
             sortManager.UndoSorting(randomTShirtsUnsorted, tShirtList);
             sortManager.SortByColorAscending(randomTShirtsUnsorted, tShirtList);
             Console.WriteLine();
 
             Console.WriteLine("Press any key to proceed to sorting descending by color.");
-            Console.ReadKey();
+            //Console.ReadKey();
             sortManager.UndoSorting(randomTShirtsUnsorted, tShirtList);
             sortManager.SortByColorDescending(randomTShirtsUnsorted, tShirtList);
             Console.WriteLine();
 
             Console.WriteLine("Press any key to proceed to sorting ascending by fabric.");
-            Console.ReadKey();
+            //Console.ReadKey();
             sortManager.UndoSorting(randomTShirtsUnsorted, tShirtList);
             sortManager.SortByFabricAscending(randomTShirtsUnsorted, tShirtList);
             Console.WriteLine();
 
             Console.WriteLine("Press any key to proceed to sorting descending by fabric.");
-            Console.ReadKey();
+            //Console.ReadKey();
             sortManager.UndoSorting(randomTShirtsUnsorted, tShirtList);
             sortManager.SortByFabricDescending(randomTShirtsUnsorted, tShirtList);
             Console.WriteLine();
 
             Console.WriteLine("Press any key to proceed to sorting ascending by size then color then fabric.");
-            Console.ReadKey();
+            //Console.ReadKey();
             sortManager.UndoSorting(randomTShirtsUnsorted, tShirtList);
             sortManager.SortBySizeThenColorThenFabricAscending(randomTShirtsUnsorted, tShirtList);
             Console.WriteLine();
 
             Console.WriteLine("Press any key to proceed to sorting descending by size then color then fabric.");
-            Console.ReadKey();
+            //Console.ReadKey();
             sortManager.UndoSorting(randomTShirtsUnsorted, tShirtList);
             sortManager.SortBySizeThenColorThenFabricDescending(randomTShirtsUnsorted, tShirtList);
             Console.WriteLine();

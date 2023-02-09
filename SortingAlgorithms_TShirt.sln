@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29609.76
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithms_TShirt", "SortingAlgorithms_TShirt\SortingAlgorithms_TShirt.csproj", "{212027CF-1736-4501-909C-4B0B203B37A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestForSortingIntegers", "TestForSortingIntegers\TestForSortingIntegers.csproj", "{ADE6EF18-2D92-49F7-88E1-A2F9993425B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{212027CF-1736-4501-909C-4B0B203B37A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{212027CF-1736-4501-909C-4B0B203B37A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{212027CF-1736-4501-909C-4B0B203B37A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE6EF18-2D92-49F7-88E1-A2F9993425B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE6EF18-2D92-49F7-88E1-A2F9993425B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE6EF18-2D92-49F7-88E1-A2F9993425B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE6EF18-2D92-49F7-88E1-A2F9993425B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
